@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/css.css" />
+    <title>To Do list</title>
+  </head>
+  <body>
+    <header><h1>To do List</h1></header>
+    <div class="container">
+      <form>
+        <label for="todo"></label>
+        <input
+          type="text"
+          id="todo"
+          name="TodoList"
+          placeholder="Enter a to do list"
+        />
+        <button class="addBtn"><i class="fas fa-plus-square"></i></button>
+        <button class="clearBtn"><i class="fas fa-eraser"></i></button>
+        <p id="check"></p>
+      </form>
+    </div>
+
+    <!--Target ul list-->
+    <div class="todoDiv">
+      <ul id="list"></ul>
+    </div>
+
+    <script src="js.js"></script>
+  </body>
+</html>

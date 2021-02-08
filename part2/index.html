@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Club Membership</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Student Club Roster</h1>
+
+    <h2>Add Students</h2>
+    
+      <label for="student-name">Student Name</label
+      ><input id="student-name" name="student-name" />
+      <br />
+      <label for="student-id">Student ID</label
+      ><input id="student-id" name="student-id" />
+      <br />
+      <label for="student-gpa">Student GPA</label
+      ><input id="student-gpa" name="student-gpa" type="number" />
+      <br />
+      <button id="add-student">Add Student</button>
+    </div>
+    <h2>Student List</h2>
+
+    <p>
+      There are
+      <span id="student-count">
+        <!-- use JavaScript to count the number of students, and show here -->
+      </span>
+      student(s) in the club.
+    </p>
+
+    <ul id="student-list">
+      <!-- use JavaScript to create li elements  -->
+    </ul>
+
+    <button id="remove-selected-students">Remove selected students</button>
+  </div>
+
+    <script src="js.js"></script>
+  </body>
+</html>

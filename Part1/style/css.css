@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.88%;
+}
+body {
+  background: linear-gradient(to bottom, #de6262, #ffb88c);
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  font-size: 4rem;
+  color: aliceblue;
+  border-bottom: 2px solid white;
+  background-image: ;
+  background-clip: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  min-height: 15vh;
+}
+input,
+button {
+  font-size: 2rem;
+  border: none;
+  padding: 0.8rem;
+}
+.todoDiv {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 1.7rem;
+  min-height: 12vh;
+}
+.todoDiv ul {
+  margin: 0.9rem;
+  list-style: none;
+}
+.todoDiv .lists {
+  padding: 0 0.5rem;
+}
+
+button {
+  background-color: #000000;
+  color: #c2ede5;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  height: 3.9rem;
+  border-radius: 7%;
+}
+.lists {
+  padding-top: 10px;
+  font-size: 2.1rem;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+.fa-eraser {
+  pointer-events: none;
+}
